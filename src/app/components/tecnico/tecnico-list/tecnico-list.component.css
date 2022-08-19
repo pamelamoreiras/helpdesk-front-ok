@@ -1,0 +1,9 @@
+table {
+    width: 100%;
+  }
+
+.container{
+    width: 90%;
+    margin: auto;
+    box-shadow: 2px 2px 1em lightslategray;
+  }
