@@ -13,7 +13,6 @@
     padding: 4rem 1rem;
     border-radius: 1rem;
     box-shadow: 2px 2px 1em lightslategray;
-
 }
 
 h1 {
@@ -33,6 +32,10 @@ h1 {
     width: 100%;
     margin-top: 1rem;
     box-shadow: 2px 2px .6em lightslategray;
+    background-color: rgb(204, 224, 231);
+    border-radius: 1rem;
+    border: gray;
+    font-size: 20px;
 }
 
 .cabecalho-login {
