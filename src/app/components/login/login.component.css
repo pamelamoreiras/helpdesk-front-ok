@@ -1,50 +1,39 @@
 .container {
     height: 100%;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(37,97,287,1) 0%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(37,97,207,1) 0%, rgba(0,212,255,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.form {
+ }
+ 
+ .form {
     width: 30rem;
     margin: auto;
     background-color: rgb(235, 235, 235);
     padding: 4rem 1rem;
     border-radius: 1rem;
-    box-shadow: 2px 2px 1em lightslategray;
-}
-
-h1 {
+ }
+ 
+ h1 {
     width: 100%;
     text-align: center;
-}
-
-.full-width {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 10px;
-    border-radius: 1rem;
-    box-shadow: .2px .2px .3em lightslategray;
-}
-
-.login-button {
-    width: 100%;
-    margin-top: 1rem;
-    box-shadow: 2px 2px .6em lightslategray;
-    background-color: rgb(204, 224, 231);
-    border-radius: 1rem;
-    border: gray;
-    font-size: 20px;
-}
-
-.cabecalho-login {
-    margin-left: 10px;
-    margin-bottom: 5px;
-}
-
-img {
+    
+ }
+ 
+ img {
     height: 15rem;
     width: 100%;
-    margin: auto;
-}
+    margin: 1.5rem auto 1.5rem auto;
+ }
+ 
+ .full-width {
+    width: 100%;
+ }
+ 
+ button {
+    margin-top: 1.5rem;
+ }
+ 
+ mat-icon {
+    opacity: .6;
+ }
