@@ -31,7 +31,7 @@ export class ClienteListComponent implements OnInit {
       this.ELEMENT_DATA = resposta
       this.dataSource = new MatTableDataSource<Cliente>(resposta);
       this.dataSource.paginator = this.paginator;
-    })
+    });
   }
 
   applyFilter(event: Event) {
